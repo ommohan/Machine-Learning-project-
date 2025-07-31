@@ -13,7 +13,7 @@ if st.button("Compress CSV"):
             shutil.copyfileobj(f_in, f_out)
         st.success("✅ File compressed and saved as malicious_phish.csv.gz")
     else:
-        st.error("❌ File not found.")ś
+        st.error("❌ File not found.")
 
 
 if st.button("Compress Uploaded CSV"):
